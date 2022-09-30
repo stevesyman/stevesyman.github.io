@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<script src="fancifymytext.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+		<div class="fancycontainer">
+            <div class="fancy1">
+				<a href= "index.html"><p align = "center"><font face = "Courier" size = "4"><b>Playing Escape From Tarkov</b></font></p></a>
+            </div>
+            <div class="fancy2">
+              <p align = "center"><font face = "Courier" size = "4"><b>Fancify My Text</b></font></p>
+            </div>
+            <div class="fancy3">
+              
+            </div>
+            <div class="fancy4">
+              
+            </div>
+          </div>
+
+		<br>
+		
+		<fieldset>
+			<legend>Text</legend>
+			<textarea id="textArea" rows="4" cols="30"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="bigger()">Bigger!</button>
+			<br>
+			<input type="radio" id="fancy" name="styleChange" onchange="fancifyText();"> FancyShmancy
+			<br>
+			<input type="radio" id="boring" name="styleChange" onchange="fancifyText();"> BoringBetty
+			<br>
+			<button onclick="moo()">Moo</button>
+		</fieldset>
+
+	</body>
+</html>
